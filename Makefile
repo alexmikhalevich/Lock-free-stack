@@ -1,2 +1,2 @@
 all:
-	g++ -std=c++11 -lgtest -lgtest_main main.cpp ctest.cpp
+	g++ -std=c++11 -latomic -lgtest -lgtest_main main.cpp ctest.cpp
